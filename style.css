@@ -1,0 +1,145 @@
+:root{
+    --color-darkblue:#0A3871;
+    --color-white:#FFFFFF;
+    --color-blues:#D8DFE8;
+    --color-lightBlue100:#F3F5FC;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-lightBlue100);
+}
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.inputText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 70vh;
+    padding: 20px 10px 20px;
+}
+
+.answerText{
+    width: 25%;
+    min-height: 70vh;
+    
+
+}
+.textAreaInput{
+    background-color: var(--color-lightBlue100);
+    border-color: var(--color-lightBlue100);
+    min-height: 60vh;
+    border-radius: 10px;
+    font-style: var(--color-darkblue);
+    padding: 10px;
+}
+.textAreaAnswer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-white);
+    border-color:var(--color-white) ;
+    min-height: 70vh;
+    border-radius: 10px;
+    font-style: var(--color-darkblue);
+    padding: 10px;
+    box-shadow: 1px 2px 10px #6f757c87;
+}
+#inputAnswer{
+    background-color: var(--color-white);
+    border-color:var(--color-white) ;
+    min-height: 60vh;
+    /* border-radius: 10px; */
+    font-style: var(--color-darkblue);
+    padding-left: 20px;
+    /* box-shadow: 1px 2px 10px #6f757c87; */
+}
+
+.img{
+    min-height: 10vh;
+    /* min-width: 250px;
+    max-width: 500px; */
+
+}
+
+.textNingun{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: #343A40 center;
+}
+
+.text{
+    /* min-width:300px ; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: #343A40 center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    color: var(--color-blue);
+    margin-top: 0.5rem;
+    border: 0;
+    /* background-color: red; */
+}
+.btnEncriptar{
+    color: var(--color-white);
+    background-color: var(--color-darkblue);
+    width: 120px;
+    padding: 4px;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+    border-color: var(--color-darkblue);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: ; */
+    cursor: pointer;
+}
+.btnDesencriptar{
+    color: var(--color-darkblue);
+    background-color: var(--color-blues);
+    width: 120px;
+    padding: 4px ;
+    /* margin-right: 0.5rem; */
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: var(--color-darkblue);
+    cursor: pointer;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+.btncopy{
+    color: var(--color-darkblue);
+    background-color: var(--color-blues);
+    width: 20vh;
+    padding: 4px ;
+    cursor: pointer;
+    /* margin-right: 0.5rem; */
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: var(--color-darkblue);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    /* margin-bottom: 1px; */
+    /* margin-top: 0.5rem; */
+
+    /* margin-left: 2.5rem; */
+}
+
+.inactive{
+    display: none;
+}
+#inputAnswer{
+
+}

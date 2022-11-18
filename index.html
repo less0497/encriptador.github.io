@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="inputText">
+            <textarea name="input" id="input" class="textAreaInput" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>
+            <div class="buttonDiv">
+                <button class="btnEncriptar" onclick="btnEncriptarText()"> Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptarText()"> Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="answerText" >
+            <div class="textAreaAnswer" > 
+                <!-- DISSAPEAR -->
+                <img class="img" src="https://thumbs.dreamstime.com/b/hombre-de-negocios-que-sostiene-una-lupa-89089592.jpg" alt="imagen con lupa">
+                <strong class="textNingun"> Ningun mensaje fue encontrado </strong>
+                <p class="text">Ingresa el Texto que deseas Encriptar o Desencriptar</p>
+                
+                <!-- APPEAR -->
+                <textarea name="inputAnswer" id="inputAnswer" class="inputAnswer inactive" cols="30" rows="10" readonly="readonly" placeholder="Ningún mensaje fue encontrado"> 
+                </textarea>
+
+                <button class="btncopy inactive" onclick="btnCopyText()"> Copiar</button>
+            </div> 
+        </section>
+    </main>
+
+    <script src="script.js"></script>    
+</body>
+</html>
